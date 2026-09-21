@@ -1,16 +1,36 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Science Communication and Outreach"
 permalink: /talks/
 author_profile: true
 ---
 
 {% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
+  <div class="wordwrap">See a map of all the places I've given a talk!</div>
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+{% include base_path %}
+
+{% assign outreach = site.talks | where: "type", "Outreach" %}
+{% if outreach.size > 0 %}
+  <h2>Outreach and Communication</h2><hr />
+  {% for post in outreach reversed %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+{% endif %}
+
+{% assign presentations = site.talks | where: "type", "Presentation" %}
+{% if presentations.size > 0 %}
+  <h2>Presentations</h2><hr />
+  {% for post in presentations reversed %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+{% endif %}
+
+{% assign posters = site.talks | where: "type", "Poster" %}
+{% if posters.size > 0 %}
+  <h2>Poster Sessions</h2><hr />
+  {% for post in posters reversed %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+{% endif %}

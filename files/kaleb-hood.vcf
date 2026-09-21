@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hood;Kaleb;;;
+FN:Kaleb Hood
+ORG:Portland State University;Mechanical and Materials Engineering
+TITLE:PhD Candidate
+TEL;TYPE=CELL,VOICE:(971) 400-0305
+EMAIL;type=INTERNET;type=WORK:kahood@pdx.edu
+URL:https://kalebhood.github.io
+ADR;type=WORK:;;Portland State University;Portland;OR;;USA
+END:VCARD

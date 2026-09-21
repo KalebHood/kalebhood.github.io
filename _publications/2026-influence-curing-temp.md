@@ -1,0 +1,11 @@
+---
+title: "Influence of Curing Temperature and Duration on the Stability of Honey-CNT Memristors"
+collection: publications
+category: proceedings
+permalink: /publication/2026/honey-temp-time
+excerpt: 'Conference paper on effects of curing time and temperature on honey films'
+date: 2026-05-24
+venue: '249th ECS Meeting'
+---
+Resistive switching random-access memory (ReRAM) continues to be a desirable candidate for emerging memristor technology and artificial synaptic devices for neuromorphic computing hardware. Due to their ability to mimic key functional characteristics of biological synapses in both nature and structure, ReRAM devices have the capability to both process and store information at the same node, as required by neuromorphic systems for more energy-efficient computing in tasks such as AI and machine learning. Recent efforts have explored the integration of natural organic materials as dielectrics in memristor devices. However, a significant challenge for this novel class of ReRAM utilizing such materials is their long-term stability. Honey, for example, has emerged as a promising material due to its inherent preservative properties, complex sugar mixture, and intrinsic resistive switching behaviors, especially when combined with nanoparticles such as carbon nanotubes (CNTs). Despite these advantages, the long-term electrical reliability of honey-CNT composite films has not been systematically evaluated. This work presents a 20-week investigation of the electrical performance and material stability of honey-CNT ReRAM devices fabricated under five distinct thermal treatment conditions, including different baking temperature and duration. Weekly electrical and material characterization was conducted to assess endurance and variability over time. The results provide insight into how thermal processing influences the long-term behavior of honey-based memristors and highlights the curing conditions that best preserve device consistency. Understanding the long-term performance of honey-CNT based devices under electrical stress would be beneficial for further research on honey-based memory and artificial synaptic devices for the manufacture of sustainable neuromorphic computing systems.
+**link**:https://ecs.confex.com/ecs/249/meetingapp.cgi/Paper/215430

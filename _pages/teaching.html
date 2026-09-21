@@ -7,6 +7,34 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<div class="wordwrap">
+  A summary of courses I have taught, co-taught or TA'd for at Portland State University and Warner Pacific University. Workshops I have lead or been a part of are also included. Follow each course link to learn a bit more. 
+</div>
+
+<h2>Primary Instructor</h2>
+<hr />
+
+{% assign sorted_teaching = site.teaching | sort: 'date' | reverse %}
+{% for post in sorted_teaching %}
+  {% if post.type == "Primary Instructor" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Co-Instructor & Teaching Assistant</h2>
+<hr />
+
+{% for post in sorted_teaching %}
+  {% if post.type == "Co-Instructor" or post.type == "Teaching Assistant" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Workshop</h2>
+<hr />
+
+{% for post in sorted_teaching %}
+  {% if post.type == "Workshop" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
