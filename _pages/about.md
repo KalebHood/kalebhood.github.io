@@ -15,7 +15,7 @@ I'm a material science engineer, with a background in chemistry and biological s
 - The **publications** tab gives short summaries of my published work, and links to articles you want to read in full. 
 - Teaching is one of my passions and an important part of what I do. Visit the **teaching** tab to see what classes I have taught, and some interactive workshops I have run. 
 - Effective and engaging science communication is important to me as a scientist, so I have shared some examples of my past **presentations** and posters.
-- If you want to learn about what I do when I'm not doing science, check out the **hobbies** tab. \*Spoilers* It's mostly hiking, drone photography, and exploring the PNW.
+- If you want to learn about what I do when I'm not doing science, you can visit the **hobbies** tab. Which I will make when I have time. For the page, not the hobbies. It's mostly hiking and exploring the PNW. 
 
 My Research
 ======
